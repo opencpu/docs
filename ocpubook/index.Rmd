@@ -1,0 +1,49 @@
+--- 
+title: "OpenCPU User Manual"
+date: "Version `r Sys.Date()`"
+site: bookdown::bookdown_site
+output: bookdown::gitbook
+output_dir: "docs"
+link-citations: yes
+github-repo: opencpu/opencpu.github.io
+description: "OpenCPU: Producing and Reproducing Results"
+---
+
+```{r, echo = FALSE, message = FALSE}
+knitr::opts_chunk$set(comment = "#>")
+options(width = 120, max.print = 100)
+strip_vspace <- function(x){ gsub("```\n+```\n", "```\n```{.outputcode}\n", x) }
+knitr::knit_hooks$set(document = strip_vspace)
+```
+
+
+# Welcome
+
+![under construction](http://www.textfiles.com/underconstruction/HeHeartlandPark2601underconstructionbar9.gif)
+
+## Why OpenCPU
+
+Apps. Integration. Mature. Scalable and hackable. Fully open source.
+
+```r
+library(opencpu)
+ocpu_start_app('rwebapps/stocks')
+```
+
+## Pieces
+
+ - R package: single-user server
+ - Apache server: `opencpu-server`
+ - Public cloud server: https://cloud.opencpu.org
+ - Docker Containers with `opencpu-server`
+ - JavaScript (browser) client: `opencpu.js`
+ - Apps based on `opencpu.js`: rwebapps
+ - R client for testing
+ 
+## Information and support
+
+ - API docs
+ - Jeroen paper
+ - Stack Overflow
+ - Mailing list
+ - Twitter

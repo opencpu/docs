@@ -1,0 +1,28 @@
+# Get started
+
+Steps to develop apps:
+
+ 1. Create R package with your stuff
+ 2. Expose via OpenCPU single user server
+ 3. Deploy via public server or docker or elsewhere
+
+
+## Hello world
+
+ 1. Start a single-user server
+ 2. Run some apps
+ 3. Poke around with `curl` or the test page.
+ 4. Get some objects in formats, do rpc, post data. Reuse objects from session.
+
+## What are apps
+
+## A development environment
+
+Need to build packages. RStudio is very convenient. Either single user environment or docker will work.
+
+## Deployment
+
+Either:
+
+ 1. Deploy on public server
+ 2. Run your own 

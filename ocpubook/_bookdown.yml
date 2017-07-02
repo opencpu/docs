@@ -1,0 +1,5 @@
+book_filename: "ocpubook"
+output_dir: ".."
+language:
+  ui:
+    chapter_name: "Chapter "
