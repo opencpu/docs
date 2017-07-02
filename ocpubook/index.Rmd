@@ -19,7 +19,7 @@ knitr::knit_hooks$set(document = strip_vspace)
 
 # Welcome
 
-![under construction](http://www.textfiles.com/underconstruction/HeHeartlandPark2601underconstructionbar9.gif)
+![under construction](construction.gif)
 
 ## Why OpenCPU
 
