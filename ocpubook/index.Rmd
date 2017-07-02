@@ -30,6 +30,10 @@ library(opencpu)
 ocpu_start_app('rwebapps/stocks')
 ```
 
+![stockapp](stockapp.png)
+
+
+
 ## Pieces
 
  - R package: single-user server
