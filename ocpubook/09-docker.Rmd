@@ -1,0 +1,6 @@
+# Docker
+
+ - `opencpu/base`
+ - `opencpu/rstudio`
+
+Try `opencpu` user. Install apps. 

@@ -1,0 +1,10 @@
+# Apps
+
+Apps are simply R packages.
+
+## Functions
+
+
+## Files
+
+## JavaScript

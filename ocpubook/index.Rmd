@@ -1,6 +1,6 @@
 --- 
 title: "OpenCPU User Manual"
-date: "Version `r Sys.Date()`"
+date: "Build `r Sys.Date()`"
 site: bookdown::bookdown_site
 output: bookdown::gitbook
 output_dir: "docs"
@@ -19,6 +19,8 @@ knitr::knit_hooks$set(document = strip_vspace)
 
 # Welcome
 
+
+
 ![under construction](construction.gif)
 
 ## Why OpenCPU
@@ -32,6 +34,14 @@ ocpu_start_app('rwebapps/stocks')
 
 ![stockapp](stockapp.png)
 
+
+## How it works
+
+ - API for calling R functions and scripts, and managing resources (objects, files, graphics, ...)
+ - Central: leverages R packages. Packages are natural and powerful container format for R bundling and shipping R code, data, manuals and files.
+ - Apps in OpencPU are simply R packages containing R functions.
+ 
+Very flexible and scalable R backend. Builds apps, call it from services or data pipelines.
 
 
 ## Pieces

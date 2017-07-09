@@ -1,0 +1,40 @@
+# OpenCPU Server
+
+## Installation
+
+### Ubuntu 16.04
+
+### Debian
+
+### Fedora / CentOS 
+
+### Docker
+
+
+
+## Configuring
+
+### Installing packages
+
+### Installing apps
+
+### Custom settings
+
+ - Environment variables
+ - Custom calls
+ 
+
+### Performance Tuning
+
+Important: each request gets handed in a fork. Thefore they are unaffected but also means that each requests has
+to load all packages that are not preloaded.
+
+Setting limits
+
+Preloading packages
+
+Custom warmup calls
+
+
+## Build from Source
+

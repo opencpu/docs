@@ -1,9 +1,0 @@
-# OpenCPU Server
-
-## Installation
-
-
-## Configuring
-
-
-

@@ -16,9 +16,6 @@ Steps to develop apps:
 
 ## What are apps
 
-## A development environment
-
-Need to build packages. RStudio is very convenient. Either single user environment or docker will work.
 
 ## Deployment
 
